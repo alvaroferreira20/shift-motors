@@ -53,7 +53,7 @@ function openDetail(index) {
       '<div class="spec-item"><div class="label">Portas</div><div class="value">'+v.doors+'</div></div>' +
     '</div>' +
     '<div class="description">'+v.description+'</div>' +
-    '<a href="https://wa.me/5511999999999?text=Ola! Tenho interesse no '+v.brand+' '+v.model+' '+v.year+'" class="whatsapp-detail" target="_blank">Tenho Interesse - WhatsApp</a>' +
+    '<a href="https://wa.me/5511939347332?text=Ola! Tenho interesse no '+v.brand+' '+v.model+' '+v.year+'" class="whatsapp-detail" target="_blank">Tenho Interesse - WhatsApp</a>' +
   '</div>';
   modal.classList.add("active");
 }
@@ -65,3 +65,4 @@ function closeDetail() {
 document.addEventListener("keydown", function(e){ if(e.key==="Escape") closeDetail(); });
 
 init();
+
