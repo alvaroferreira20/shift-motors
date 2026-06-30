@@ -1,8 +1,13 @@
 ﻿var vehicles = [];
 
 async function init() {
-  var res = await fetch("vehicles.json");
-  vehicles = await res.json();
+  var stored = localStorage.getItem("shift-vehicles");
+  if (stored && JSON.parse(stored).length > 0) {
+    vehicles = JSON.parse(stored);
+  } else {
+    var res = await fetch("vehicles.json");
+    vehicles = await res.json();
+  }
   populateFilters();
   renderVehicles(vehicles);
 }
@@ -65,4 +70,5 @@ function closeDetail() {
 document.addEventListener("keydown", function(e){ if(e.key==="Escape") closeDetail(); });
 
 init();
+
 
