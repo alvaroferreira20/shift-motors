@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shift Motors - Veiculos Premium</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <div class="header-content">
+    <img src="logo.png" alt="Shift Motors" class="logo">
+    <nav>
+      <a href="#estoque">Estoque</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+      <a href="admin.html" class="admin-link">Admin</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>SHIFT <span>MOTORS</span></h1>
+    <p>Veiculos premium selecionados para voce</p>
+    <a href="#estoque" class="cta-btn">Ver Estoque</a>
+  </div>
+</section>
+
+<section id="estoque" class="section">
+  <h2>Nosso Estoque</h2>
+  <div class="filters">
+    <input type="text" id="search" placeholder="Buscar por marca ou modelo..." oninput="filterVehicles()">
+    <select id="filter-year" onchange="filterVehicles()">
+      <option value="">Todos os anos</option>
+    </select>
+  </div>
+  <div class="vehicles-grid" id="vehicles-grid"></div>
+</section>
+
+<div id="vehicle-modal" class="modal"></div>
+
+<section id="sobre" class="section about">
+  <h2>Sobre a Shift Motors</h2>
+  <p>Somos especializados em veiculos premium. Cada carro do nosso estoque passa por uma rigorosa inspecao de qualidade para garantir a melhor experiencia ao nosso cliente.</p>
+</section>
+
+<section id="contato" class="section contact">
+  <h2>Contato</h2>
+  <a href="https://wa.me/5511999999999" class="whatsapp-btn" target="_blank">Fale conosco no WhatsApp</a>
+</section>
+
+<footer>
+  <p>Shift Motors &copy; 2026 - Todos os direitos reservados</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

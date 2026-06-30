@@ -1,0 +1,41 @@
+﻿[
+  {
+    "brand": "BMW",
+    "model": "320i Sport",
+    "year": 2023,
+    "km": "28.000",
+    "price": "245.900",
+    "fuel": "Gasolina",
+    "transmission": "Automatico",
+    "color": "Preto",
+    "doors": 4,
+    "description": "BMW 320i Sport 2.0 Turbo com pacote M Sport. Interior em couro caramelo, teto solar, central multimidia com Apple CarPlay e Android Auto. Revisoes em dia na concessionaria. Unico dono.",
+    "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&h=300&fit=crop"
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "model": "C200 Avantgarde",
+    "year": 2022,
+    "km": "35.000",
+    "price": "279.900",
+    "fuel": "Gasolina",
+    "transmission": "Automatico",
+    "color": "Branco",
+    "doors": 4,
+    "description": "Mercedes C200 Avantgarde 1.5 Turbo com EQ Boost. Bancos em couro, ar digital bi-zone, camera 360, piloto automatico adaptativo. Todas as revisoes feitas.",
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&h=300&fit=crop"
+  },
+  {
+    "brand": "Audi",
+    "model": "A3 Sedan",
+    "year": 2024,
+    "km": "12.000",
+    "price": "219.900",
+    "fuel": "Flex",
+    "transmission": "Automatico",
+    "color": "Cinza",
+    "doors": 4,
+    "description": "Audi A3 Sedan Prestige Plus 1.4 TFSI. Virtual Cockpit, farol full LED, bancos em couro, som Bang & Olufsen. Estado de zero km.",
+    "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600&h=300&fit=crop"
+  }
+]
